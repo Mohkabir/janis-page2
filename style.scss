@@ -7,12 +7,16 @@
 }
 @font-face {
   font-family: roboto ;
-  src: url('./asset/Roboto-Bold.ttf');
+  src: url('./asset/Roboto-Regular.ttf');
 }
 @font-face {
   font-family: robotoRegular ;
-  src: url('./asset/Roboto-Regular.ttf');
+  src: url('./asset/Roboto-Light.ttf');
 }
+// @font-face {
+//   font-family: robotoRegular ;
+//   src: url('./asset/Roboto-Regular.ttf');
+// }
 
 
 img{
@@ -21,14 +25,16 @@ img{
 h1{
   font-size: 35px;
   font-family: roboto ;
+  font-weight: 400;
 }
 
 h2{
   font-size: 30px;
   font-family: roboto ;
+  font-weight: 400;
 }
 h3{
-  
+  font-weight: 400;
   font-size: 24px;
   font-family: roboto ;
 }
